@@ -1,0 +1,10 @@
+package com.soulblade249.MagicRings.item;
+
+public class ItemGoldRing extends ItemMR
+{
+    public ItemGoldRing()
+    {
+        super();
+        this.setUnlocalizedName("goldRing");
+    }
+}

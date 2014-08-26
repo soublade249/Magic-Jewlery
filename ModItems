@@ -1,0 +1,17 @@
+package com.soulblade249.MagicRings.init;
+
+import com.soulblade249.MagicRings.item.ItemMR;
+import com.soulblade249.MagicRings.item.ItemGoldRing;
+import com.soulblade249.MagicRings.reference.Reference;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
+public class ModItems
+{
+    public static final ItemMR goldRing = new ItemGoldRing();
+
+    public static void init()
+    {
+        GameRegistry.registerItem(goldRing, "goldRing");
+    }
+}
